@@ -40,6 +40,8 @@ return require('packer').startup(function(use)
 		  {'hrsh7th/cmp-nvim-lsp'},
 		  {'L3MON4D3/LuaSnip'},
 	  }
-  } 
+  }
 
+  use{'neoclide/coc.nvim', branch = 'release'}
+  use('jiangmiao/auto-pairs')
 end)
