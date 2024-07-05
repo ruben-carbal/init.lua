@@ -42,6 +42,6 @@ return require('packer').startup(function(use)
 	  }
   }
 
-  use{'neoclide/coc.nvim', branch = 'release'}
+  -- use{'neoclide/coc.nvim', branch = 'release'}
   use('jiangmiao/auto-pairs')
 end)
