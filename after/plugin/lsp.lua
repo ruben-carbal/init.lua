@@ -10,7 +10,14 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = {'lua_ls', 'tsserver', 'eslint'},
+    ensure_installed = {
+        'lua_ls',
+        'tsserver',
+        'eslint',
+        'clangd',
+        'phpactor',
+        'html'
+    },
     handlers = {
        lsp_zero.default_setup,
     },
