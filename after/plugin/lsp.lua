@@ -15,8 +15,9 @@ require('mason-lspconfig').setup({
         'tsserver',
         'eslint',
         'clangd',
-        'phpactor',
-        'html'
+        'html',
+        'pyright',
+        'intelephense'
     },
     handlers = {
        lsp_zero.default_setup,
