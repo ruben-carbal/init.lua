@@ -12,12 +12,14 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
     ensure_installed = {
         'lua_ls',
-        'tsserver',
+        -- 'tsserver',
+        'ts_ls',
         'eslint',
         'clangd',
         'html',
         'pyright',
-        'intelephense'
+        'intelephense',
+        'jdtls'
     },
     handlers = {
        lsp_zero.default_setup,
